@@ -5,6 +5,7 @@ The aim of this problem is to predict the class(poisonous or edible) of a mushro
 The target variable for the problem is 'class' which contains two categories- edible(e) and poisonous(p)
 Description of various features is given in the repo as file 'Data Description.docx'
 Detailed analysis of variables-
+
 | Variable | dtype | type | no.of classes |
 |---|---|---|---|
 | cap-shape | object | nominal | 6 |
