@@ -5,31 +5,31 @@ The aim of this problem is to predict the class(poisonous or edible) of a mushro
 The target variable for the problem is 'class' which contains two categories- edible(e) and poisonous(p)
 Description of various features is given in the repo as file 'Data Description.docx'
 Detailed analysis of variables-
-| Variable                   | dtype  | type     | no.of classes |
-|----------                  |------- |------    |---------------|
-| cap-shape                  | object |nominal   |  6            |
-| cap-surface                | object |nominal   |  4            |
-| cap-color                  | object |nominal   |  10           |
-| bruises                    | object |nominal   |  2            |
-| odor                       | object |nominal   |  9            |
-| gill-attachment            | object |nominal   |  2            |
-| gill-spacing               | object |nominal   |  3            |
-| gill-size                  | object |ordinal   |  2            |
-| gill-color                 | object |nominal   |  12           |
-| stalk-shape                | object |nominal   |  2            |
-| stalk-root                 | object |nominal   |  4            |
-| radius                     | int64  |continous |  continous    |
-| stalk-surface-above-ring   | object |nominal   |  4            |
-| stalk-surface-below-ring   | object |nominal   |  4            |
-| stalk-color-above-ring     | object |nominal   |  9            |
-| stalk-color-above-ring     | object |nominal   |  9            |
-| veil-color                 | object |nominal   |  4            |
-| weight                     | int64  |continous |  continous    |
-| ring-number                | object |ordinal   |  3            |
-| ring-type                  | object |nominal   |  5            |
-| spore-print-colo           | object |nominal   |  9            |
-| population                 | object |nominal   |  6            |
-| habitat                    | object |nominal   |  7            |
+| Variable | dtype | type | no.of classes |
+|---|---|---|---|
+| cap-shape | object | nominal | 6 |
+| cap-surface | object |nominal | 4 |
+| cap-color | object |nominal | 10 |
+| bruises | object |nominal   |  2            |
+| odor | object |nominal | 9 |
+| gill-attachment | object | nominal | 2 |
+| gill-spacing | object | nominal | 3 |
+| gill-size | object | ordinal | 2 |
+| gill-color | object | nominal | 12 |
+| stalk-shape | object | nominal | 2 |
+| stalk-root | object | nominal | 4 |
+| radius | int64 | continous | continous |
+| stalk-surface-above-ring | object | nominal | 4 |
+| stalk-surface-below-ring | object | nominal | 4 |
+| stalk-color-above-ring | object | nominal | 9 |
+| stalk-color-above-ring | object | nominal | 9 |
+| veil-color | object | nominal | 4 |
+| weight | int64 | continous | continous |
+| ring-number | object | ordinal | 3 |
+| ring-type | object | nominal | 5 |
+| spore-print-colo | object | nominal | 9 |
+| population | object | nominal | 6 |
+| habitat | object | nominal | 7 |
 
 ### Visualizations
 Univariate analysis and bi-variate analysis is carried out for different variables using boxplots(for continous), scatterplots(for continous) and using seaborn factorplot and countplots for various inferences about  categorical features
